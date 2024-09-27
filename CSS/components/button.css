@@ -1,0 +1,17 @@
+.button {
+    font-family: "Playfair Display", sans-serif;
+    text-decoration: none;
+    position: relative;
+    color: rgb(245, 245, 245);
+    background-color: hsl(0, 0%, 24%);
+    padding: 7px 22px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background: radial-gradient(rgb(66, 233, 255), rgb(65, 129, 265));
+    color: rgb(0, 0, 0);
+    transform: scale(1.2); transition: transform 0.5s ease;
+    transition: 1s ease;
+    transition: color 1s ease;
+}
